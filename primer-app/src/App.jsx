@@ -3,7 +3,7 @@ import { TwitterFollowCard } from './twitterFollowCard'
 
 export function App () {
     return (
-       <TwitterFollowCard userName="Manupedrob" name="Manuel Pedrobelli" />
+       <TwitterFollowCard username="manupedrob" name="Manuel Pedrobelli" />
     )
 }
 
