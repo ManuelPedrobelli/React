@@ -1,0 +1,57 @@
+/* Estilos base */
+.responsive-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D3C77;
+    list-style: none;
+    gap: 5rem;
+    position: fixed;
+    top: -14.5px;
+    width: 100%;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.responsive-nav li {
+    color: antiquewhite;
+    transition: 0.3s;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.responsive-nav li:hover {
+    background-color: #3F1D38;
+}
+
+/* Estilos para smartphones */
+@media (max-width: 599px) {
+    .responsive-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        top: 0;
+        position: inherit;
+        gap: 2px;
+    }
+
+    .responsive-nav li:hover {
+        width: 97%;
+    } 
+}
+
+/* Estilos para tablets */
+@media (min-width: 600px) and (max-width: 991px) {
+    .responsive-nav {
+        gap: 3rem;
+    }
+
+    .responsive-nav li {
+        padding: 10px 15px;
+    }
+}
+
+/* Estilos para PCs */
+@media (min-width: 992px) {
+    /* Mantenemos los estilos base para pantallas más grandes */
+}
