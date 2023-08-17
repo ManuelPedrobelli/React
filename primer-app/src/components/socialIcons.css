@@ -1,0 +1,28 @@
+.social-icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid antiquewhite;
+
+    width: min-content;
+    padding: 10px;
+    border-radius: 1000px;
+
+    position: fixed;
+    top: 17rem;
+    left: 1rem; 
+
+    margin: auto 0;
+
+    background-color: rgba(94, 94, 94, 0.334);
+}
+
+.social-icons-icon {
+    width: 50px;
+    transition: transform .2s; 
+}
+ 
+.social-icons-icon:hover {
+    transform: scale(1.3); 
+}
