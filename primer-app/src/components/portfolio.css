@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10rem auto;
+}
+
+ /* Smartphone */
+ @media (max-width: 599px) {
+    .flex-container {
+      font-size: 20px;
+      height: auto; /* Cambiado a auto para permitir que el contenido determine la altura */
+      gap: 1rem; /* Cambiado a rem para ajustarse mejor a dispositivos móviles */
+    }
+    .flex-container {
+      padding: 1rem; /* Añadido para un mejor espaciado en dispositivos móviles */
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 991px) {
+    .flex-container {
+      font-size: 30px;
+    }
+  }
+  
+  /* Monitor de PC */
+  @media (min-width: 992px) {
+    .flex-container {
+      font-size: 36px;
+    }
+  }
+  

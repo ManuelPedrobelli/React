@@ -1,9 +1,10 @@
 import './about.css';
+import Title from './title';    
 
 function About() {
     return (
         <section id='about' className='about-container'>
-            <h1 className='about-title'>About me</h1>
+            <Title text="About me" />
             <div className='about-info'>
                 <img className='about-avatar' src='src\assets\avatar.jpg' alt='manu-pedrobelli' />
                 <div className='about-personalInfo'>

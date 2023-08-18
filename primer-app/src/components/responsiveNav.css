@@ -32,12 +32,11 @@
         align-items: flex-start;
         top: 0;
         position: inherit;
-        gap: 2px;
+        gap: 1px;
     }
-
-    .responsive-nav a:hover {
-        width: 97%;
-    } 
+    .responsive-nav a {
+        padding: 10px;
+    }
 }
 
 /* Estilos para tablets */

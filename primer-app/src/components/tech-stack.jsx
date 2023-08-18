@@ -1,9 +1,10 @@
 import './tech-stack.css';
+import Title from './title';
 
 function TechStack () {
     return (
         <section className='tech-stack-container'> 
-            <h1 className='tech-stack-title'> Skills </h1>
+            <Title text="Skills" />
             <ul className='tech-stack-iconContainer'>
                 <li> <img className='tech-stack-icon zoom' src=".\src\assets\img\html.png" alt="HTML5" /> </li> 
                 <li> <img className='tech-stack-icon zoom' src=".\src\assets\img\css-3.png" alt="CSS3" /></li>

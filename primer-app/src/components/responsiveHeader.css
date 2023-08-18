@@ -9,43 +9,59 @@
     color: antiquewhite;
     width: 100%;
     text-align: start;
-}
-
-.responsive-header-container {
+  }
+  
+  .responsive-header-container {
     display: flex;
-    gap: 2rem;
-}
-
-.responsive-header-subtitle {
+    flex-direction: column; /* Cambiado de row a column para dispositivos móviles y tabletas */
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .flex-container {
+    /* Mantener igual para dispositivos móviles y tabletas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-title {
+    font-size: 5rem;
+  }
+  
+  .responsive-header-subtitle {
     text-align: center;
-}
-
-.responsive-header-img {
+  }
+  
+  .responsive-header-img {
     width: 200px;
-}
-
-/* Smartphone */
-@media (max-width: 599px) {
+    height: 200px;
+  }
+  
+  /* Smartphone */
+  @media (max-width: 599px) {
     .responsive-header, .responsive-header-container {
-        font-size: 20px;
-        height: 75vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+      font-size: 20px;
+      height: auto; /* Cambiado a auto para permitir que el contenido determine la altura */
+      gap: 1rem; /* Cambiado a rem para ajustarse mejor a dispositivos móviles */
     }
-}
-
-/* Tablet */
-@media (min-width: 600px) and (max-width: 991px) {
+    .responsive-header-container {
+      padding: 1rem; /* Añadido para un mejor espaciado en dispositivos móviles */
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 991px) {
     .responsive-header {
-        font-size: 30px;
+      font-size: 30px;
     }
-}
-
-/* Monitor de PC */
-@media (min-width: 992px) {
+  }
+  
+  /* Monitor de PC */
+  @media (min-width: 992px) {
     .responsive-header {
-        font-size: 36px;
+      font-size: 36px;
     }
-}
+  }
+  
