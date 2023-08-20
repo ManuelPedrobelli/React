@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Mukta', sans-serif;
+    background-color: rgb(1, 48, 64);
+}   
+
+.zoom {
+      transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+      transform: scale(1.2);
+}
+
+.title {
+    font-family: 'Dancing Script', cursive; 
+    color: rgb(1, 48, 64);
+}
+
+.text {
+    font-family: 'Oswald', sans-serif;
+}

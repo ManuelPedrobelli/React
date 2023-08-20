@@ -1,13 +1,16 @@
 import "./App.css";
 import Header from "./assets/components/header";
+import Hero from "./assets/components/Hero";
+import About from "./assets/components/about";
+import Stack from "./assets/components/Stack";
 
 function App() {
   return (
     <>
     <Header />
-    <div className="bg-indigo-600 w-full h-screen">
-
-    </div>
+    <Hero />
+    <About />
+    <Stack />
     </>
   );
 }
