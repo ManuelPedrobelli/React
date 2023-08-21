@@ -4,6 +4,8 @@ import Hero from "./assets/components/Hero";
 import About from "./assets/components/about";
 import Stack from "./assets/components/Stack";
 import Portfolio from "./assets/components/Portfolio";
+import Contact from "./assets/components/Contact";
+import Footer from "./assets/components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Stack />
       <Portfolio />
+      <Contact />
+      <Footer />
     </>
   );
 }

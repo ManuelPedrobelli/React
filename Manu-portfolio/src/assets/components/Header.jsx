@@ -3,15 +3,15 @@ import {Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
     let Links  = [
-        {name: 'Home', link: '/'},
-        {name: 'Projects', link: '/'},
-        {name: 'About', link: '/'},
-        {name: 'Contact', link: '/'},
+        {name: 'Home', link: '#'},
+        {name: 'Projects', link: '#portfolio'},
+        {name: 'About', link: '#about'},
+        {name: 'Contact', link: '#contact'},
     ]
 
     let [open, setOpen] = useState(false);
     return ( 
-        <div className="shadow-md w-full fixed z-10 top-0 left-0">
+        <div id='home' className="shadow-md w-full fixed z-10 top-0 left-0">
             <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
                     <img src='github.png' className='zoom w-10 h-10 text-blue-600' href="https://github.com/ManuelPedrobelli"/>
