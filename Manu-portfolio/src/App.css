@@ -25,3 +25,14 @@ body {
 .text {
     font-family: 'Oswald', sans-serif;
 }
+
+.zoomImg {
+    transition: 1s ease;
+}
+.zoomImg:hover {
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 1s ease;
+}
+
