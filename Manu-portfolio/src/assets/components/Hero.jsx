@@ -9,9 +9,11 @@ export default function HeroComponent() {
                     Front-end developer who enjoys building websites
                 </p>
                 <div className="flex items-center justify-center mt-2 md:mt-4">
-                    <button className="zoom zoom:hover   w-32 h-12 px-3 md:px-4 lg:px-6 py-1 md:py-2 lg:py-2 text-white font-bold bg-rgb-blue rounded-3xl shadow-md hover:bg-blue-700">
-                        Get my CV
-                    </button>
+                    <a href="Manuel_Pedrobelli_Resume_.pdf" download>
+                        <button className="zoom zoom:hover w-32 h-12 px-3 md:px-4 lg:px-6 py-1 md:py-2 lg:py-2 text-white font-bold bg-rgb-blue rounded-3xl shadow-md hover:bg-blue-700">
+                            Get my CV
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className="flex items-center justify-center md:ml-5 mt-2 md:mt-0">
