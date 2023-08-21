@@ -14,8 +14,8 @@ const Header = () => {
         <div className="shadow-md w-full fixed z-10 top-0 left-0">
             <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
-                    <img src='/src/assets/github.png' className='zoom w-10 h-10 text-blue-600' href="https://github.com/ManuelPedrobelli"/>
-                    <img src='/src/assets/linkedin.png' className='zoom  w-10 h-10 text-blue-600' href="https://www.linkedin.com/in/manuel-agustin-pedrobelli-salaberria-897009213/"/>
+                    <img src='github.png' className='zoom w-10 h-10 text-blue-600' href="https://github.com/ManuelPedrobelli"/>
+                    <img src='linkedin.png' className='zoom  w-10 h-10 text-blue-600' href="https://www.linkedin.com/in/manuel-agustin-pedrobelli-salaberria-897009213/"/>
                 </div>
                 
                 <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>

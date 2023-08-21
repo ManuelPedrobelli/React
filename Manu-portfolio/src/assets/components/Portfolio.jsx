@@ -9,7 +9,7 @@ export default function Portfolio() {
                     <h3 className=" font-bold text-2xl text-white mb-2">Trivia game</h3>
                     <p className="text-white lg:px-10">Game of Q&A with a dice and board, the first to get to the final cell its the winner</p>
                 </div>
-                <img className="w-80 h-120 cursor-pointer zoomImg rounded-2xl" src="/src/assets/trivia.png" alt="trivia-game" href="#" />
+                <img className="w-80 h-120 cursor-pointer zoomImg rounded-2xl" src="trivia.png" alt="trivia-game" href="#" />
             
             </div>
        </div>
