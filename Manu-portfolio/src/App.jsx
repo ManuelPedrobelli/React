@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./assets/components/header";
+import Header from "./assets/components/Header";
 import Hero from "./assets/components/Hero";
 import About from "./assets/components/about";
 import Stack from "./assets/components/Stack";
@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Stack />
       <Portfolio />
+      <Stack />
       <Contact />
       <Footer />
     </>
