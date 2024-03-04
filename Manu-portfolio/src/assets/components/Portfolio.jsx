@@ -19,10 +19,10 @@ export default function Portfolio() {
                 <div className="flex flex-col items-center justify-center text-center gap-4">
                     <h3 className="text-white font-bold text-2xl mb-2">Metal Guitar Store</h3>
                         <p className="text-white text-lg lg:px-10">The "Metal Guitar Store" is a front-end web app.<br/> <span className="font-bold text-yellow-800">HTML CSS JS </span></p>
+                </div>
                     <a href="https://metal-store-mp.netlify.app/"  target="_blank" rel="noopener noreferrer">
                         <img className="w-80 h-120 cursor-pointer zoomImg rounded-2xl" src="metalStore.png" alt="guitar-store"  />
                     </a>
-                </div>
                 </div>
 
        </div>
