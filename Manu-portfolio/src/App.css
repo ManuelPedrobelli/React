@@ -3,25 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 html {
     scroll-behavior: smooth;
-  }
+}
+#about, #portfolio, #stack, #contact {
+    width: 90%;
+} 
 body {
     font-family: 'Mukta', sans-serif;
-    background-color: rgb(1, 48, 64);
+    background-color: #090f13;
+    margin:0;
+    padding: 0;
 }   
-
+.fondoNegro {
+    background-color: #0a0913; 
+}
+.fondoAzulado {
+    background-color: #181841b5;
+}
+.fondoAnaranjado {
+    background-color: orange;
+}
+.redondear {
+    border-radius: 15px;
+}
 .zoom {
       transition: transform .2s; /* Animation */
 }
-
 .zoom:hover {
       transform: scale(1.2);
 }
-
 .title {
     font-family: 'Dancing Script', cursive; 
-    color: rgb(1, 48, 64);
+    color: rgb(250, 250, 250);
 }
-
 .text {
     font-family: 'Oswald', sans-serif;
 }
@@ -33,6 +46,5 @@ body {
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.1);
-transition: 1s ease;
+transition: 0.2s ease-out;
 }
-
