@@ -13,12 +13,12 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Portfolio />
       <Stack />
       <Contact />
       <Footer />
     </>
   );
 }
+//<Portfolio />
 
 export default App;
