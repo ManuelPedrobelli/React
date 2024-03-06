@@ -11,7 +11,7 @@ const Header = () => {
 
     let [open, setOpen] = useState(false);
     return ( 
-        <div id='home' className="shadow-md w-full fondoNegro fixed z-10 top-0 left-0">
+        <div id='home' className="shadow-md w-full fondoNav fixed z-10 top-0 left-0">
             <div className='md:flex items-center justify-between py-4 md:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
                     <a href="https://github.com/ManuelPedrobelli">
