@@ -1,8 +1,10 @@
+import 'animate.css/animate.min.css';
+
 export default function HeroComponent() {
     return (
-        <div id="div-hero" className='bg-[url("fondo3.jpg")] h-screen md:h-160 gap-4 lg:h-120 w-full bg-cover bg-center flex p-4 md:p-8 gap-4 md:gap-9 lg:p-20 md:flex-row md:justify-center mt-16 md:mt-16'>
-            <div id="hero-content" className="flex flex-row items-center justify-center md:text-left mb-4 md:mb-0 gap-4">
-                <div className="flex flex-col items-center justify-center">
+        <div id="div-hero" className='bg-[url("fondo3.jpg")] h-screen md:h-160 gap-4 lg:h-120 w-full bg-cover flex p-4 md:p-8 gap-4 md:gap-9 lg:p-20 md:flex-row md:justify-center mt-16 md:mt-16'>
+            <div id="hero-content" className="animate__animated animate__flash flex flex-row items-center justify-center md:text-left mb-4 md:mb-0 gap-4 p-12 redondear">
+                <div className=" flex flex-col items-center justify-center">
                     <h1 className="title transition-transform transform hover:-translate-y-1 text-left text-4xl md:text-5xl lg:text-8xl font-bold">
                         Manuel Pedrobelli
                     </h1>
@@ -17,7 +19,7 @@ export default function HeroComponent() {
                         </a>
                 </div>
                 <div className="flex flex-col items-center justify-center md:ml-5 mt-2 md:mt-0">
-                    <img src="manu.jpg" alt="software engineer" className="zoomImg w-20 h-20 md:w-96 md:h-60 p-4 lg:w-60 lg:h-60 p-2 shadow-lg rounded-full" /> 
+                    <img src="perfil.jpg" alt="software engineer" className="zoomImg md:w-96 md:h-60 p-4 lg:w-80 lg:h-80 p-2 shadow-lg rounded-full" /> 
                 </div>
             </div>
         </div>
