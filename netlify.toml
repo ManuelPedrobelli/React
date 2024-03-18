@@ -1,6 +1,6 @@
 
 [build]
-  command = "npm run build"  # Comando para construir tu proyecto Vite React
+  command = "vite build"  # Comando para construir tu proyecto Vite React
   publish = "Manu-portfolio/public"  # Directorio de publicación donde se encuentran los archivos estáticos generados
 
 [[redirects]]
