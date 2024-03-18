@@ -1,0 +1,10 @@
+# netlify.toml
+
+[build]
+  command = "vite build"
+  publish = "path/to/your/build/directory"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
