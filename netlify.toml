@@ -1,9 +1,0 @@
-
-[build]
-  command = "vite build"  # Comando para construir tu proyecto Vite React
-  publish = "Manu-portfolio/public"  # Directorio de publicación donde se encuentran los archivos estáticos generados
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
