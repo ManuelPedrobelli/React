@@ -1,6 +1,6 @@
 export default function Portfolio() {
     return (
-       <div id="portfolio" className="flex flex-col items-center justify-center gap-2 p-2 mx-auto text-white  gap-12">
+       <div id="portfolio" className="flex flex-col items-center justify-center gap-2 p-2 mx-auto text-white h-120 gap-12">
             <h2 className="text-6xl text-white w-1/3 font-bold text-center p-2">Portfolio</h2>
            
            <div className="flex flex-col fondoSecundario redondear items-center justify-center gap-2"> 

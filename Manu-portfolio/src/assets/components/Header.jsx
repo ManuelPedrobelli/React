@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import 'animate.css/animate.min.css';
 
@@ -18,16 +18,8 @@ const Header = () => {
     };
 
     return (
-        <div id='home' className="shadow-md w-full fixed z-10 top-0 left-0">
-            <div className='md:flex items-center justify-between p-2 md:px-10 '>
-                <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
-                    <a href="https://github.com/ManuelPedrobelli">
-                        <img src='github.png' className='zoom w-12 h-12 text-blue-600' />
-                    </a>
-                    <a href="https://www.linkedin.com/in/manuel-agustin-pedrobelli-salaberria-897009213/">
-                        <img src='linkedin.png' className='zoom  w-12 h-12 text-blue-600' />
-                    </a>
-                </div>
+        <div id='home' className="shadow-md w-full fondoSecundario fixed z-10 top-0 p-2 left-0">
+            <div className='md:flex items-center justify-end p-2 md:px-10  '>
 
                 <div onClick={toggleMenu} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
                     {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
