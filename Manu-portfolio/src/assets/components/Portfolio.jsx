@@ -20,7 +20,7 @@ export default function Portfolio() {
                 <div className="flex flex-col items-center justify-center text-center gap-4">
                     <h2 className=" font-bold text-4xl">Guitar Store</h2>
                     <a href="https://metalguitars-mp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img className=" h-120 cursor-pointer rounded-2xl" src="./public/metalStore.png" alt="trivia-game" />
+                        <img className=" h-120 cursor-pointer rounded-2xl" src="metalStore.png" alt="trivia-game" />
                     </a>
                     <p className=" text-lg lg:px-10">I enjoy playing the guitar, so I had the idea of creating a virtual store with my favorite guitars and musical equipment. At the moment, it's just a front-end project done in JavaScript. It's an API built in Express being consumed by the front-end with vanilla JS.<br/></p>
                 </div>
