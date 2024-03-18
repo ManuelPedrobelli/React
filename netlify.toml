@@ -1,8 +1,7 @@
-# netlify.toml
 
 [build]
-  command = "vite build"
-  publish = "path/to/your/build/directory"
+  command = "npm run build"  # Comando para construir tu proyecto Vite React
+  publish = "Manu-portfolio/public"  # Directorio de publicación donde se encuentran los archivos estáticos generados
 
 [[redirects]]
   from = "/*"
