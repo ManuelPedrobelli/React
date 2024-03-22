@@ -8,10 +8,10 @@ export default function Contact() {
     };
 
     return (
-        <div id="contact" className="mt-4 flex flex-col fondoSecundario items-center justify-center text-center p-5 mx-auto rounded-3xl">
-            <h2 className="font-bold text-white text-6xl p-4">Get in touch</h2>
-            <div className="redondear p-2">
-                <p className="p-2 text-white text-xl">
+        <div id="contact" className="mt-4 flex color2 flex-col items-center justify-center text-center mb-12 p-5 mx-auto rounded-3xl">
+            <h2 className="font-bold text-6xl mb-2 p-4">Get in touch</h2>
+            <div className="redondear2  px-4">
+                <p className="p-6 color3 redondear mb-4 text-xl">
                     I&apos;m currently looking for opportunities. Whether it&apos;s a Full-Time Job or a Freelance work. Send me a message,
                     <br/> I&apos;ll try to get back to you as soon as possible.
                 </p>

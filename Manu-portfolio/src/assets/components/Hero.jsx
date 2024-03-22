@@ -4,12 +4,12 @@ export default function HeroComponent() {
     return (
         <div id="div-hero" className='h-screen md:h-160 gap-4 lg:h-120 bg-top-left flex p-4 md:p-8 gap-4 md:gap-9 lg:p-20 md:flex-row  md:justify-center'>
             <div id="hero-content" className="animate__animated animate__flash flex flex-row items-center justify-center md:text-left mb-4 md:mb-0 gap-4 p-12 redondear">
-                <div className=" flex flex-col items-start justify-center gap-6 ml-2 justify-center">
+                <div className=" flex flex-col items-start justify-center gap-2 ml-2 justify-center">
                     <h1 className="title transition-transform transform hover:-translate-y-1 text-left text-4xl md:text-5xl lg:text-9xl font-bold">
                         Manuel Pedrobelli
                     </h1>
-                    <p className="text-white text-left text-2xl md:text-3xl lg:text-4xl mb-2">
-                        Full Stack developer 
+                    <p className="text-white text-left text-2xl md:text-3xl lg:text-4xl mb-6">
+                        Software developer student
                     </p>
                     <div className='flex flex-row justify-center items-center gap-2'>
 
@@ -30,7 +30,7 @@ export default function HeroComponent() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center md:ml-5 mt-2 ml-4 md:mt-0">
+                <div className="flex flex-col items-center justify-center md:ml-12 mt-2 ml-2 md:mt-0">
                     <img src="perfil.jpg" alt="software engineer" className="zoomImg md:w-96 md:h-60 p-4 lg:w-80 lg:h-80 p-2 shadow-lg rounded-full" /> 
                 </div>
             </div>

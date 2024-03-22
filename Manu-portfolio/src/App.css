@@ -4,14 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'animate.css';
-
+:root {
+    --color1:#040D12;
+    --color2:#91C8E4;
+    --color3:#b2d6e8;
+    --color4:#91C8E4;
+}
 html {
     scroll-behavior: smooth;
 }
 body {
     font-family: 'Mukta', sans-serif;
     margin:0;
-    background-color: rgb(26, 25, 54);
+    background-color: var(--color1);
     padding: 0;
 } 
 h2 {
@@ -24,16 +29,6 @@ h2 {
 p {
     font-family: kanit;
 }
-
-.fondoNav {
-    background-color: rgb(26, 25, 54);
-}
-.fondoProyectos {
-    background-color: white;
-}
-.fondoAnaranjado {
-    background-color: orange;
-}
 .redondear {
     border-radius: 15px;
 }
@@ -41,7 +36,7 @@ p {
       transition: transform .2s; /* Animation */
 }
 .zoom:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
 }
 .title {
     font-family: 'Dancing Script', cursive; 
@@ -63,18 +58,27 @@ transition: 0.2s ease-out;
 #div-content {
     margin-left: 1rem;
 }
-.fondoSecundario {
-    background-color: rgba(160, 63, 251, 0.136);
-}
 #hero-content {
     height: 60%;
     margin: auto auto;
 }
 #trivia:hover, #guitar-store:hover {
-    background-color: blueviolet;
-    transition: 0.5s;
+    background-color: white;
+    transition: 0.3s;
 }
 #div-hero {
     background-image: url("../public/111asd.jpg");
     background-size: cover;
+}
+.color1 {
+    background-color: var(--color1);
+}
+.color2 {
+    background-color: var(--color2);
+}
+.color3 {
+    background-color: var(--color3);
+}
+.color4 {
+    background-color: var(--color4);
 }
