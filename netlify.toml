@@ -1,0 +1,10 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"  # Comando para construir tu proyecto Vite React
+  publish = "dist"  # Directorio de publicación donde se encuentran los archivos estáticos generados
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
