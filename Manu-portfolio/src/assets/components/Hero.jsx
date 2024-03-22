@@ -30,7 +30,7 @@ export default function HeroComponent() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center md:ml-5 mt-2 ml-2 md:mt-0">
+                <div className="flex flex-col items-center justify-center md:ml-5 mt-2 ml-4 md:mt-0">
                     <img src="perfil.jpg" alt="software engineer" className="zoomImg md:w-96 md:h-60 p-4 lg:w-80 lg:h-80 p-2 shadow-lg rounded-full" /> 
                 </div>
             </div>
