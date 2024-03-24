@@ -8,8 +8,8 @@ export default function HeroComponent() {
                     <h1 className="title transition-transform transform hover:-translate-y-1 text-left text-4xl md:text-5xl lg:text-9xl font-bold">
                         Manuel Pedrobelli
                     </h1>
-                    <p className="text-white text-left text-2xl md:text-3xl lg:text-4xl mb-6">
-                        Software developer student
+                    <p className=" text-left text-2xl md:text-3xl lg:text-4xl mb-6">
+                        IT Analist student
                     </p>
                     <div className='flex flex-row justify-center items-center gap-2'>
 
@@ -30,9 +30,9 @@ export default function HeroComponent() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center md:ml-12 mt-2 ml-2 md:mt-0">
-                    <img src="perfil.jpg" alt="software engineer" className="zoomImg md:w-96 md:h-60 p-4 lg:w-80 lg:h-80 p-2 shadow-lg rounded-full" /> 
-                </div>
+                <div className="flex flex-col items-center justify-center md:ml-12  md:mt-0">
+                    <img src="fondonu3.jpg" alt="software engineer" className=" md:w-96 md:h-60 p-4 lg:w-screen lg:h-screen p-2 " /> 
+            </div>
             </div>
         </div>
     );

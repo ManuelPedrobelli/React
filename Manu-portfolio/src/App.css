@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'animate.css';
 :root {
-    --color1:#040D12;
-    --color2:#91C8E4;
+    --color1:#3c7e73;
+    --color2:#ffffff;
     --color3:#b2d6e8;
     --color4:#91C8E4;
 }
@@ -26,7 +26,7 @@ h2 {
 #about, #portfolio, #stack, #contact {
     width: 90%;
 } 
-p {
+p, #home {
     font-family: kanit;
 }
 .redondear {
@@ -40,7 +40,6 @@ p {
 }
 .title {
     font-family: 'Dancing Script', cursive; 
-    color: rgb(250, 250, 250);
 }
 .text {
     font-family: 'Oswald', sans-serif;
@@ -63,12 +62,12 @@ transition: 0.2s ease-out;
     margin: auto auto;
 }
 #trivia:hover, #guitar-store:hover {
-    background-color: white;
+    background-color: rgb(221, 214, 214);
     transition: 0.3s;
 }
+
 #div-hero {
-    background-image: url("../public/111asd.jpg");
-    background-size: cover;
+    background-color: white;
 }
 .color1 {
     background-color: var(--color1);
