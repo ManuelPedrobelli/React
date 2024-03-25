@@ -8,7 +8,7 @@ export default function Portfolio() {
             <div id="trivia" className="w-2/3  color3 flex flex-col items-center justify-center gap-5 p-4 md:flex-row mt-4 mb-4 ml-6">
                 <div className=" flex flex-col items-center justify-center h-120">
                     <h2 className=" font-bold text-4xl mb-2">Trivia game</h2>
-                    <a href="https://trivia-unlp-pedrobelli.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://trivia-3.onrender.com" target="_blank" rel="noopener noreferrer">
                         <img className="cursor-pointer rounded-2xl h-60 mb-4" src="trivia.png" alt="trivia-game" />
                     </a>
                     <p className="text-lg text-left px-4 overflow-auto">Q&A game I built while taking the JavaScript Seminar course.<br/>The backend is built on Node.js and Express.<br/>It features an online multiplayer connection to allow playing a game online from different computers.<br/></p>
