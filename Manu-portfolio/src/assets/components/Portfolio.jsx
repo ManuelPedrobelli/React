@@ -1,32 +1,52 @@
 export default function Portfolio() {
     return (
-       <div id="portfolio" className=" flex flex-col color2 redondear items-center justify-center gap-2 p-2 mx-auto mb-12 ">
-            <h2 className="text-6xl w-1/3 font-bold text-center p-2">Portfolio</h2>
-           
-           <div className="flex flex-row color2 redondear items-start px-4 justify-center gap-12"> 
+        <div id="portfolio" className="flex flex-col m-auto mb-12 redondear py-8 justify-center bg-white">
+            <h2 className="text-6xl text-center mb-12">Portfolio</h2>
+            <div className="flex flex-row justify-center gap-12">
 
-            <div id="trivia" className="w-2/3  color3 flex flex-col items-center justify-center gap-5 p-4 md:flex-row mt-4 mb-4 ml-6">
-                <div className=" flex flex-col items-center justify-center h-120">
-                    <h2 className=" font-bold text-4xl mb-2">Trivia game</h2>
-                    <a href="https://trivia-3.onrender.com" target="_blank" rel="noopener noreferrer">
-                        <img className="cursor-pointer rounded-2xl h-60 mb-4" src="trivia.png" alt="trivia-game" />
-                    </a>
-                    <p className="text-lg text-left px-4 overflow-auto">Q&A game I built while taking the JavaScript Seminar course.<br/>The backend is built on Node.js and Express.<br/>It features an online multiplayer connection to allow playing a game online from different computers.<br/></p>
-                </div>
-            </div>
+            <div className="grid justify-center">
 
-            
-            <div id="guitar-store" className="w-2/3  color3 flex flex-col items-center justify-center gap-5 p-4 md:flex-row mt-4 mb-4 mr-6">
-                <div className=" flex flex-col items-center justify-center h-120">
-                    <h2 className="font-bold text-4xl mb-2">Guitar Store</h2>
-                    <a href="https://metalguitars-mp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img className="cursor-pointer rounded-2xl h-60 mb-4" src="metalStore.png" alt="guitar-store" />
+                <div class="max-w-sm bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="https://trivia-3.onrender.com/">
+                        <img class="rounded-t-lg" src="trivia.png" alt="" />
                     </a>
-                    <p className="text-lg text-left px-4 overflow-auto">I enjoy playing the guitar, so I had the idea of creating a virtual store with my favorite guitars and musical equipment. At the moment, it's just a front-end project done in JavaScript. It's an API built in Express being consumed by the front-end with vanilla JS.</p>
+                    <div class="p-5">
+                        <a href="https://trivia-3.onrender.com/">
+                            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Trivia</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <a href="https://trivia-3.onrender.com/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Go to the site
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
+
             </div>
-       
-          </div>  
-       </div>
+                <div className="grid items-center justify-center">
+
+                <div class="max-w-sm bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="https://metalguitars-mp.netlify.app/">
+                        <img class="rounded-t-lg" src="metalStore.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="https://metalguitars-mp.netlify.app/">
+                            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Trivia</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <a href="https://metalguitars-mp.netlify.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Go to the site
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
     );
 }
