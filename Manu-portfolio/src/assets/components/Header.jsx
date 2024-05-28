@@ -5,9 +5,9 @@ import 'animate.css/animate.min.css';
 const Header = () => {
     let Links = [
         { name: 'Home', link: '#' },
-        { name: 'Projects', link: '#portfolio' },
-        { name: 'About', link: '#about' },
-        { name: 'Contact', link: '#contact' },
+        { name: 'Sobre mi', link: '#about' },
+        { name: 'Proyectos', link: '#portfolio' },
+        { name: 'Contacto', link: '#contact' },
     ];
 
     let [open, setOpen] = useState(false);
