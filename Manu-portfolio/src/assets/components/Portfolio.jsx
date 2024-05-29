@@ -18,7 +18,7 @@ export default function Portfolio() {
                             <div className="flex flex-row h-12 w-80 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
                                 <img className="h-10 w-10" src="dist/html-5.png"></img>
                                 <img className="h-10 w-10" src="dist/css-3.png"></img>
-                                <img className="h-10 w-10" src="Manu-portfolio\dist\js.png"></img>
+                                <img className="h-10 w-10" src="..\dist\js.png"></img>
                                 <img className="h-10 w-10" src="dist/icons8-nodejs-96.png"></img>
                                 <img className="h-10 w-10" src="dist/express.png"></img>
                                 <img className="h-10 w-10" src="dist/git.png"></img>
