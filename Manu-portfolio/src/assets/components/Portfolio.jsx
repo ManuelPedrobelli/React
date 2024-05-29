@@ -18,7 +18,7 @@ export default function Portfolio() {
                             <div className="flex flex-row h-12 w-80 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
                                 <img className="h-10 w-10" src="/html-5.png"></img>
                                 <img className="h-10 w-10" src="/css-3.png"></img>
-                                <img className="h-10 w-10" src="\js.png"></img>
+                                <img className="h-10 w-\js.png"></img>
                                 <img className="h-10 w-10" src="/icons8-nodejs-96.png"></img>
                                 <img className="h-10 w-10" src="/express.png"></img>
                                 <img className="h-10 w-10" src="/git.png"></img>
@@ -47,10 +47,10 @@ export default function Portfolio() {
 
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Metalstore es una tienda virtual de guitarras electricas.<br></br>En desarrollo.</p>
                         <div className="flex flex-row h-12 w-80 gap-3 bg-grey-500 rounded-md  mb-2 p-2 items-center">
-                                <img className="h-10 w-10" src="../public/html-5.png"></img>
-                                <img className="h-10 w-10" src="../public/css-3.png"></img>
-                                <img className="h-10 w-10" src="../public/js.png"></img>
-                                <img className="h-10 w-10" src="../public/git.png"></img>
+                                <img className="h-10 w-10" src="/html-5.png"></img>
+                                <img className="h-10 w-10" src="/css-3.png"></img>
+                                <img className="h-10 w-10" src="/js.png"></img>
+                                <img className="h-10 w-10" src="/git.png"></img>
                         </div>
                         <a href="https://metalguitars-mp.netlify.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Visitar MetalStore
@@ -73,10 +73,10 @@ export default function Portfolio() {
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Este sitio esta construido con React.</p>
                         <div className="flex flex-row h-12 w-80 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
-                                <img className="h-10 w-10" src="../public/html-5.png"></img>
-                                <img className="h-10 w-10" src="../public/tailwind-css.png"></img>
-                                <img className="h-10 w-10" src="../public/science.png"></img>
-                                <img className="h-10 w-10" src="../public/git.png"></img>
+                                <img className="h-10 w-10" src="/html-5.png"></img>
+                                <img className="h-10 w-10" src="/tailwind-css.png"></img>
+                                <img className="h-10 w-10" src="/science.png"></img>
+                                <img className="h-10 w-10" src="/git.png"></img>
                             </div>
                     </div>
                 </div>
