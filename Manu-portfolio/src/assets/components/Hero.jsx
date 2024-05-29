@@ -13,7 +13,7 @@ export default function HeroComponent() {
                     </p>
                     <div className='flex gap-2'>
 
-                        <a href="cv3.pdf" download>
+                        <a href="cv4-2.pdf" download>
                         <button className="zoom zoom:hover w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-green-700 rounded-2xl shadow-md hover:bg-green-500">
                             Descargar CV
                         </button>
