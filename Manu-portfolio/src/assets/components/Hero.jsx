@@ -9,7 +9,7 @@ export default function HeroComponent() {
                         Manuel Pedrobelli
                     </h1>
                     <p className=" text-left text-2xl md:text-3xl lg:text-4xl mb-6">
-                        Estudiante avanzado de Analista en Tecnologicas de la Informacion y Comunicacion
+                        Desarrollador
                     </p>
                     <div className='flex gap-2'>
 
