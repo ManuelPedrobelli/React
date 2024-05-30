@@ -10,8 +10,8 @@ import Footer from "./assets/components/Footer";
 function App() {
   return (
     <>
-      <Header />
       <Hero />
+      <Header />
       <About />
       <Portfolio />
       <Stack />

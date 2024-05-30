@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'animate.css';
 :root {
-    --color1:#16a89c;
+    --color1:#141d1c;
     --color2:#ffffff;
-    --color4:#b2d6e8;
-    --color3:#91e4dc;
+    --color4:#253836;
+    --color3:#929e9c;
 }
 html {
     scroll-behavior: smooth;
@@ -57,17 +57,14 @@ transition: 0.2s ease-out;
 #div-content {
     margin-left: 1rem;
 }
-#hero-content {
-    height: 60%;
+#hero-content { 
+    background-color: rgba(251, 251, 251, 0.235);
+    height: 80%;
     margin: auto auto;
 }
 #trivia:hover, #guitar-store:hover {
     background-color: rgb(221, 214, 214);
     transition: 0.3s;
-}
-
-#div-hero {
-    background-color: white;
 }
 .color1 {
     background-color: var(--color1);
@@ -86,3 +83,8 @@ transition: 0.2s ease-out;
     grid-gap:40px;
 }
 
+#div-hero {
+    background-image: url("/fondo3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}

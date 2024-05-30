@@ -1,16 +1,16 @@
 export default function Portfolio() {
     return (
-        <div id="portfolio" className="flex flex-col m-auto mb-12 redondear py-8 justify-center bg-white">
+        <div id="portfolio" className="flex flex-col items-center m-auto mb-12 redondear py-8 justify-center bg-white">
             <h2 className="text-6xl text-center mb-12">Portfolio</h2>
-            <div className="grid grid-cols-2 justify-center gap-12">
+            <div className="grid grid-cols-2 gap-4 items-start">
 
             <div className="grid justify-center">
 
                 <div class="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="p-2">
                     <a href="https://trivia-3.onrender.com/">
                         <img class="rounded-t-lg" src="trivia.png" alt="" />
                     </a>
-                    <div class="p-5">
                         <a href="https://trivia-3.onrender.com/">
                             <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Trivia</h5>
                         </a>
@@ -37,10 +37,10 @@ export default function Portfolio() {
                 <div className="grid justify-center">
 
                 <div class="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="p-2">
                     <a href="https://metalguitars-mp.netlify.app/">
                         <img class="rounded-t-lg" src="metalStore.png" alt="" />
                     </a>
-                    <div class="p-5">
                         <a href="https://metalguitars-mp.netlify.app/">
                             <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Metal Store</h5>
                         </a>

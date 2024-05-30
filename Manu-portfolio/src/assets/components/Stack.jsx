@@ -13,6 +13,7 @@ export default function Stack() {
                 <img className="w-24 h-20 transition-transform transform hover:-translate-y-2" src="tailwind-css.png" alt="tailwind" />
                 <img className="w-20 h-20 transition-transform transform hover:-translate-y-2" src="git.png" alt="git" />
             </div>
+            
             <h2 className="text-6xl font-bold w-1/4 redondear p-2 text-center">Aptitudes</h2>
             <div className="flex w-3/4 redondear p-6 flex flex-wrap items-center justify-evenly gap-8 sm:flex-row mt-6">
                 <p>UML - Unified Modeling Language</p>
