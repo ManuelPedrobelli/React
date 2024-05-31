@@ -58,9 +58,13 @@ transition: 0.2s ease-out;
     margin-left: 1rem;
 }
 #hero-content { 
-    background-color: rgba(251, 251, 251, 0.235);
-    height: 80%;
+    width: 100%;
     margin: auto auto;
+}
+#hero-title {
+    background-color: rgba(26, 29, 100, 0.869);
+    border-radius: 15px;
+    
 }
 #trivia:hover, #guitar-store:hover {
     background-color: rgb(221, 214, 214);
