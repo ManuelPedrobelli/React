@@ -1,44 +1,24 @@
-import React, { useState } from 'react';
-import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import React from 'react';
 import 'animate.css/animate.min.css';
+import enFlag from '/usaflag.svg'; // Ruta relativa desde Header.jsx
+import esFlag from '/flagSpain.svg'; // Ruta relativa desde Header.jsx
 
-const Header = () => {
-    let Links = [
-        { name: 'Home', link: '#' },
-        { name: 'Sobre mi', link: '#about' },
-        { name: 'Proyectos', link: '#portfolio' },
-        { name: 'Contacto', link: '#contact' },
-    ];
-
-    let [open, setOpen] = useState(false);
- 
-    
-    const toggleMenu = () => {
-        setOpen(!open);
-    };
-
-    return (
-        <div id='home' className="w-full text-white z-10 top-0 p-2 left-0">
-            <div className='md:flex items-center justify-end p-2 md:px-10  '>
-
-                <div onClick={toggleMenu} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
-                    {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
-                </div>
-
-                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12' : 'top-[-490px]'}`}>
-                    {
-                        Links.map(link => (
-                            <li className='font-semibold my-7 md:my-0 md:ml-8' key={link.name}>
-                                <a href={link.link}>
-                                    {link.name}
-                                </a>
-                            </li>))
-                    }
-
-                </ul>
-            </div>
+const Header = ({ language, toggleLanguage }) => {
+  return (
+    <div id='home' className='sticky top-0 left-0 right-0 bg-black z-50'>
+      <div className='flex justify-center w-full text-white'>
+        <div className='flex'>
+          {/* Utiliza la variable de idioma para mostrar la bandera correspondiente */}
+          <img
+            src={language === 'en' ? esFlag : enFlag} // Cambia el orden de las banderas según el idioma
+            alt='Language flag'
+            className='w-10 h-10 md:w-12 md:h-12 lg:w-10 lg:h-10 p-2 rounded-full cursor-pointer' // Ajusta el tamaño en diferentes tamaños de pantalla
+            onClick={toggleLanguage} // Llama a la función para cambiar el idioma
+          />
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Header;

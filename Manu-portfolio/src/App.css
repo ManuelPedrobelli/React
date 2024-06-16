@@ -16,16 +16,15 @@ html {
 body {
     font-family: 'Mukta', sans-serif;
     margin:0;
-    background-color: var(--color1);
     padding: 0;
+}
+#main {
+    background-image: url('/fondofinal.jpg');
 } 
 h2 {
     font-family: 'Bebas Neue'; 
-    font-size: 6rem;
+    font-size: 4rem;
 }
-#about, #portfolio, #stack, #contact {
-    width: 90%;
-} 
 p, #home {
     font-family: kanit;
 }
@@ -33,13 +32,10 @@ p, #home {
     border-radius: 15px;
 }
 .zoom {
-      transition: transform .2s; /* Animation */
+      transition: transform .1s; /* Animation */
 }
 .zoom:hover {
       transform: scale(1.1);
-}
-.title {
-    font-family: 'Dancing Script', cursive; 
 }
 .text {
     font-family: 'Oswald', sans-serif;
@@ -49,22 +45,13 @@ p, #home {
     transition: 1s ease;
 }
 .zoomImg:hover {
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
 transform: scale(1.1);
-transition: 0.2s ease-out;
+transition: 0.2s ease-in;
 }
 #div-content {
     margin-left: 1rem;
-}
-#hero-content { 
-    width: 100%;
-    margin: auto auto;
-}
-#hero-title {
-    background-color: rgba(26, 29, 100, 0.869);
-    border-radius: 15px;
-    
 }
 #trivia:hover, #guitar-store:hover {
     background-color: rgb(221, 214, 214);
@@ -87,8 +74,3 @@ transition: 0.2s ease-out;
     grid-gap:40px;
 }
 
-#div-hero {
-    background-image: url("/fondo3.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-}

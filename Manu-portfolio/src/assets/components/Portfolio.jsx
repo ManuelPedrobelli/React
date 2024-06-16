@@ -1,9 +1,9 @@
-export default function Portfolio() {
+export default function Portfolio({text}) {
     return (
         <div id="portfolio" className="flex flex-col items-center mx-auto mb-12 p-4 lg:p-8 rounded-lg py-8 justify-center bg-white">
-            <h2 className="text-3xl md:text-4xl lg:text-6xl text-center mb-12">Portfolio</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 items-start">
-                <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
+            <h2 className="text-3xl md:text-6xl lg:text-8xl text-center mb-12">{text.title}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+                <div className="max-w-lg bg-white flex items-center justify-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
                         <a href="https://trivia-3.onrender.com/">
                             <img className="rounded-t-lg w-full" src="trivia.png" alt="Trivia" />
@@ -12,10 +12,7 @@ export default function Portfolio() {
                             <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Trivia</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Trabajo final para la materia Seminario de Lenguajes: JavaScript.
-                            <br /> Se trata de un juego multijugador con conexión online sobre preguntas y respuestas.
-                            <br /> Este proyecto me permitió profundizar conceptos de comunicación cliente-servidor, trabajar en equipo para el desarrollo del front y el back, y utilizar un controlador de versiones como GIT.
-                            <br /> Tecnologías utilizadas:
+                            {text.descriptionTrivia}
                         </p>
                         <div className="flex flex-row h-12 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
                             <img className="h-10 w-10" src="/html-5.png" alt="HTML5" />
@@ -26,7 +23,7 @@ export default function Portfolio() {
                             <img className="h-10 w-10" src="/git.png" alt="Git" />
                         </div>
                         <a href="https://trivia-3.onrender.com/" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Visitar Trivia
+                             Trivia
                             <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                             </svg>
@@ -43,8 +40,7 @@ export default function Portfolio() {
                             <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Metal Store</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Metalstore es una tienda virtual de guitarras eléctricas.
-                            <br />En desarrollo.
+                            {text.descriptionGuitarStore}
                         </p>
                         <div className="flex flex-row h-12 gap-3 bg-grey-500 rounded-md mb-2 p-2 items-center">
                             <img className="h-10 w-10" src="/html-5.png" alt="HTML5" />
@@ -53,7 +49,7 @@ export default function Portfolio() {
                             <img className="h-10 w-10" src="/git.png" alt="Git" />
                         </div>
                         <a href="https://metalguitars-mp.netlify.app/" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Visitar Metal Store
+                            Metal Store 
                             <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                             </svg>
@@ -67,10 +63,10 @@ export default function Portfolio() {
                             <img className="rounded-t-lg w-full" src="mysite.png" alt="Mi Portafolio" />
                         </a>
                         <a href="https://metalguitars-mp.netlify.app/">
-                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Mi Portafolio</h5>
+                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Este sitio está construido con React.
+                          {text.descriptionPortfolio}
                         </p>
                         <div className="flex flex-row h-12 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
                             <img className="h-10 w-10" src="/html-5.png" alt="HTML5" />
