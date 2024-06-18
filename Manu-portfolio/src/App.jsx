@@ -7,6 +7,7 @@ import Portfolio from './assets/components/Portfolio';
 import Stack from './assets/components/Stack';
 import Contact from './assets/components/Contact';
 import Footer from './assets/components/Footer';
+
 import enTexts from './assets/components/en.json'; // Importa tus archivos JSON
 import esTexts from './assets/components/es.json'; // Asegúrate de tener la ruta correcta a tus archivos JSON
 

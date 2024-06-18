@@ -73,4 +73,6 @@ transition: 0.2s ease-in;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-gap:40px;
 }
-
+form {
+    background-color:#141d1c;
+}

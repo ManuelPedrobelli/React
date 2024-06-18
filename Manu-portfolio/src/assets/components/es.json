@@ -5,7 +5,10 @@
     "cv": "Descargar CV"
   },
   "about": {
-    "text": "Actualmente finalizando el segundo año de la carrera de Análisis en TIC en la Facultad de Informática, UNLP.\n\nA medida que avanzo en mis estudios universitarios, me enfoco en el desarrollo web full-stack, disfrutando de la creación de páginas web y dedicando tiempo al diseño de sitios y aplicaciones.\n\nSoy una persona confiable, dedicada y responsable.\n\nBusco una oportunidad laboral que me permita aplicar mis conocimientos y aprender nuevas habilidades y conocimientos mientras continúo con mis estudios universitarios.\n\nFuera de mis estudios académicos, disfruto de mis pasatiempos como tocar la guitarra eléctrica, andar en bicicleta e ir al gimnasio."
+    "text1": "Actualmente finalizando el segundo año de la carrera de Análisis en TIC en la Facultad de Informática, UNLP.\n\nA medida que avanzo en mis estudios universitarios, me enfoco en el desarrollo web full-stack, disfrutando de la creación de páginas web y dedicando tiempo al diseño de sitios y aplicaciones.\n\nSoy una persona confiable, dedicada y responsable.\n\nBusco una oportunidad laboral que me permita aplicar mis conocimientos y aprender nuevas habilidades y conocimientos mientras continúo con mis estudios universitarios.Fuera de mis estudios académicos, disfruto de mis pasatiempos como tocar la guitarra eléctrica, andar en bicicleta e ir al gimnasio.",
+    "text2": "Soy una persona confiable, dedicada y responsable.",
+    "text3": "Busco una oportunidad laboral que me permita aplicar mis conocimientos y aprender nuevas habilidades y conocimientos mientras continúo con mis estudios universitarios.",
+    "text4": "Fuera de mis estudios académicos, disfruto de mis pasatiempos como tocar la guitarra eléctrica, andar en bicicleta e ir al gimnasio."
   },
   "projects": {
     "title": "Proyectos",
@@ -27,7 +30,10 @@
     "oop": "Programación orientada a objetos"
   },
   "contact": {
-    "text": "Actualmente estoy buscando oportunidades laborales, ya sea un trabajo a tiempo completo o trabajo freelance. Envíame un mensaje y trataré de responder lo antes posible.",
+    "text": "Enviame un e-mail.",
+    "name": "Nombre",
+    "send": "Enviar",
+    "comment": "Comentario",
     "buttonText": "Contactarme"
   }
 }
