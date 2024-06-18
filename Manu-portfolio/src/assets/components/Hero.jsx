@@ -21,7 +21,7 @@ export default function HeroComponent({ text }) {
                                     {text.cv}
                                 </button>
                             </a>
-                            <a href="https://www.linkedin.com/in/manuel-agustin-pedrobelli-salaberria-897009213/">
+                            <a href="https://www.linkedin.com/in/manuel-pedrobelli-897009213/">
                                 <button className="zoom w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-blue-700 shadow-md hover:bg-blue-500">
                                     Linkedin
                                 </button>

@@ -6,12 +6,12 @@ export default function Stack({ text }) {
             <div className=" grid grid-cols-2 sm:grid-cols-4 gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-8 lg:gap-6 mt-6 mb-6">
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="html-5.png" alt="html5" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="css-3.png" alt="css3" />
+                <img className="w-16 h-16 md:w-24 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="tailwind-css.png" alt="tailwind" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="js.png" alt="javascript" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="science.png" alt="react" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="icons8-nodejs-240.png" alt="nodejs" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="express.png" alt="express" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="java.png" alt="java" />
-                <img className="w-16 h-16 md:w-24 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="tailwind-css.png" alt="tailwind" />
                 <img className="w-16 h-16 md:w-20 md:h-20 lg:w-32 lg:h-32 transition-transform transform hover:-translate-y-2" src="git.png" alt="git" />
             </div>
             
