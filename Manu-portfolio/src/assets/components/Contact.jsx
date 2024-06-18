@@ -15,6 +15,9 @@ export default function Contact({ text }) {
                         <textarea className="text-black p-2 rounded-md" name="comments" cols="30" rows="5"></textarea>
 
                         <input className="py-2 mt-4 bg-blue-500 hover:bg-blue-600 text-white rounded-xl cursor-pointer" type="submit" value={text.send} />
+
+                        <input type="hidden" name="_next" value="https://manupedrobcv.onrender.com/"></input>
+                        <input type="hidden" name="_captcha" value="false"></input>
                     </form>
                 </div>
             </div>
