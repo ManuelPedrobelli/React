@@ -1,9 +1,9 @@
 export default function Portfolio({text}) {
     return (
-        <div id="portfolio" className="flex flex-col items-center mx-auto mb-12 p-4 lg:p-8 rounded-lg py-8 justify-center bg-white">
+        <div id="portfolio" className="flex flex-col items-center mx-auto mb-12 p-4 lg:p-8 rounded-lg py-8 justify-center">
             <h2 className="text-3xl md:text-6xl lg:text-8xl text-center mb-12">{text.title}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-                <div className="max-w-lg bg-white flex items-center justify-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
+                <div className="max-w-lg bg-white flex items-center justify-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6 ">
                     <div className="p-2">
                         <a href="https://trivia-3.onrender.com/">
                             <img className="rounded-t-lg w-full" src="trivia.png" alt="Trivia" />
@@ -59,8 +59,8 @@ export default function Portfolio({text}) {
 
                 <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
-                        <a href="https://metalguitars-mp.netlify.app/">
-                            <img className="rounded-t-lg w-full" src="mysite.png" alt="Mi Portafolio" />
+                        <a>
+                            <img className="rounded-t-lg w-full" src="portfolionew.png" alt="Mi Portafolio" />
                         </a>
                         <a href="https://metalguitars-mp.netlify.app/">
                             <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>

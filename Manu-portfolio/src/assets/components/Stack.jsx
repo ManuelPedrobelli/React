@@ -1,6 +1,6 @@
 export default function Stack({ text }) {
     return (
-        <div id="stack" className="relative flex color2 flex-col gap-8 items-center justify-center mx-auto mb-12 px-4 py-8 md:p-8">
+        <div id="stack" className="relative flex flex-col gap-8 items-center justify-center mx-auto mb-12 px-4 py-8 md:p-8">
             <h2 className="text-3xl md:text-6xl lg:text-8xl font-bold w-full redondear p-2 text-center">{text.title}</h2>
             
             <div className=" grid grid-cols-2 sm:grid-cols-4 gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-8 lg:gap-6 mt-6 mb-6">

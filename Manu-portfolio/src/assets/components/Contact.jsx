@@ -1,7 +1,7 @@
 export default function Contact({ text }) {
     return (
-        <div id="contact" className="mt-4 flex color2 flex-col items-center justify-center text-center mb-8 p-5 mx-auto w-full max-w-4xl">
-            <h2 className="font-bold text-4xl md:text-6xl mb-4 p-4">{text.text}</h2>
+        <div id="contact" className="mt-4 flex flex-col items-center justify-center text-center mb-8 p-5 mx-auto w-full max-w-4xl">
+            <h2 className="font-bold text-4xl md:text-8xl mb-4 p-4">{text.text}</h2>
             <div className="redondear2 flex flex-col items-center mt-4 px-4 w-full">
                 <div className="w-full">
                     <form className="flex flex-col p-6 rounded-xl gap-4 text-white text-lg md:text-2xl bg-gray-800 w-full" action="https://formsubmit.co/manupedrob@gmail.com" method="POST">
