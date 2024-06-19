@@ -5,12 +5,10 @@ export default function Portfolio({text}) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
                 <div className="max-w-lg bg-white flex items-center justify-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6 ">
                     <div className="p-2">
-                        <a href="https://trivia-3.onrender.com/">
+                        <a href="https://trivia-3.onrender.com/" target="_blank" rel="noopener noreferrer">
                             <img className="rounded-t-lg w-full" src="trivia.png" alt="Trivia" />
                         </a>
-                        <a href="https://trivia-3.onrender.com/">
-                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Trivia</h5>
-                        </a>
+                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white mt-4">Trivia</h5>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {text.descriptionTrivia}
                         </p>
@@ -33,12 +31,10 @@ export default function Portfolio({text}) {
 
                 <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
-                        <a href="https://metalguitars-mp.netlify.app/">
+                        <a href="https://metalguitars-mp.netlify.app/"  target="_blank" rel="noopener noreferrer">
                             <img className="rounded-t-lg w-full" src="metalStore.png" alt="Metal Store" />
                         </a>
-                        <a href="https://metalguitars-mp.netlify.app/">
-                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Metal Store</h5>
-                        </a>
+                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white mt-4">Metal Store</h5>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {text.descriptionGuitarStore}
                         </p>
@@ -59,12 +55,30 @@ export default function Portfolio({text}) {
 
                 <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
-                        <a>
+                        <a href="https://manublog.onrender.com/"    target="_blank" rel="noopener noreferrer">
+                            <img className="rounded-t-lg w-full" src="blogimg.png" alt="Blog" />
+                        </a>
+                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white mt-4">Blog</h5>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                          {text.descriptionPortfolio}
+                        </p>
+                        <div className="flex flex-row h-12 gap-3 bg-grey-500 rounded-md justify-center mb-2 p-2 items-center">
+                            <img className="h-10 w-10" src="/html-5.png" alt="HTML5" />
+                            <img className="h-10 w-10" src="/tailwind-css.png" alt="Tailwind CSS" />
+                            <img className="h-10 w-10" src="/science.png" alt="React" />
+                            <img className="h-10 w-10" src="/typescript.png" alt="typescript" />
+                            <img className="h-10 w-10" src="/git.png" alt="Git" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
+                    <div className="p-2">
+                        <a href="https://manupedrobcv.onrender.com/"   target="_blank" rel="noopener noreferrer">
                             <img className="rounded-t-lg w-full" src="portfolionew.png" alt="Mi Portafolio" />
                         </a>
-                        <a href="https://metalguitars-mp.netlify.app/">
-                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
-                        </a>
+                            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white mt-4">Portfolio</h5>
+
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                           {text.descriptionPortfolio}
                         </p>
