@@ -28,7 +28,7 @@ export default function Portfolio({text}) {
                         </a>
                     </div>
                 </div>
-
+{/*
                 <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
                         <a href="https://metalguitars-mp.netlify.app/"  target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ export default function Portfolio({text}) {
                         </a>
                     </div>
                 </div>
-
+*/}
                 <div className="max-w-lg bg-white flex items-center justify-center flex-col border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 lg:p-6">
                     <div className="p-2">
                         <a href="https://manublog.onrender.com/"    target="_blank" rel="noopener noreferrer">
