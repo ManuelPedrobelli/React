@@ -16,7 +16,7 @@ export default function HeroComponent({ text }) {
                             {text.subtitle}
                         </p>
                         <div className="flex flex-col md:flex-row gap-2">
-                            <a href="Manuel-Pedrobelli-CV.pdf" download>
+                            <a href="ManuelPedrobelli-cv.pdf" download>
                                 <button className="zoom w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-green-700 shadow-md hover:bg-green-500">
                                     {text.cv}
                                 </button>
