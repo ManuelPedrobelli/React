@@ -25,7 +25,7 @@ export default function About({ text }) {
           </button>
           {isVisible && (
             <img
-            src="historiaacademica.pdf"
+            src="historiaacademica.png"
             alt="Historia Académica"
             className="mt-4 w-2/3"
             />
