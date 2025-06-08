@@ -3,7 +3,6 @@ import './App.css';
 import Header from './assets/components/Header';
 import Hero from './assets/components/Hero';
 import About from './assets/components/About';
-import Portfolio from './assets/components/Portfolio';
 import Contact from './assets/components/Contact';
 
 import enTexts from './assets/components/en.json'; // Importa tus archivos JSON
