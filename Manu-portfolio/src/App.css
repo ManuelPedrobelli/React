@@ -17,11 +17,10 @@ body {
     font-family: 'Mukta', sans-serif;
     margin:0;
     padding: 0;
-    background-image: url("/testbg.jpg");
-    background-size: cover;
+    background-color: #1A2540;
 }
 #main {
-    background-image: url('/fondofinal.jpg');
+    background-image: url('/2bg2.jpg');
 } 
 h2 {
     font-family: 'Bebas Neue'; 

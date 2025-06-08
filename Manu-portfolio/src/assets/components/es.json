@@ -1,21 +1,18 @@
 {
   "hero": {
     "title": "Manuel Pedrobelli",
-    "subtitle": "Desarrollador full-stack",
-    "cv": "Descargar CV"
+    "subtitle": "Desarrollador de software",
+    "cv": "CV"
   },
   "about": {
-    "text1": "Actualmente finalizando el segundo año de la carrera de Análisis en TIC en la Facultad de Informática, UNLP.\n\nA medida que avanzo en mis estudios universitarios, me enfoco en el desarrollo web full-stack, disfrutando de la creación de páginas web y dedicando tiempo al diseño de sitios y aplicaciones.",
-    "text2": "Soy una persona confiable, dedicada y responsable.",
-    "text3": "Busco una oportunidad laboral que me permita aplicar mis conocimientos y aprender nuevas habilidades y conocimientos mientras continúo con mis estudios universitarios.",
-    "text4": "Fuera de mis estudios académicos, disfruto de mis pasatiempos como tocar la guitarra eléctrica, andar en bicicleta e ir al gimnasio.",
+    "text1": "Actualmente estoy cursando el último año de la carrera Analista en Tecnologías de la Información y la Comunicación en la UNLP (Facultad de Informática).\n\nA medida que avanzo en mis estudios universitarios, me enfoco en el desarrollo web full-stack.\n\n Estoy buscando incorporarme a un equipo de desarrollo como programador, donde pueda aportar valor a partir de mi formación académica y continuar desarrollándome profesionalmente.",
     "ha": "Historia Academica",
     "download": "Ver",
     "hide": "ocultar"
   },
   "projects": {
     "title": "Proyectos",
-    "descriptionTrivia": "Trabajo final para la materia Seminario de Lenguajes: JavaScript.\nSe trata de un juego multijugador con conexión online sobre preguntas y respuestas.\nEste proyecto me permitió profundizar conceptos de comunicación cliente-servidor, trabajar en equipo para el desarrollo del front y el back, y utilizar un controlador de versiones como GIT.\nTecnologías utilizadas:",
+    "descriptionTrivia": "Desarrollé un juego multijugador de preguntas y respuestas con conexión en tiempo real. El proyecto me permitió aplicar conocimientos de arquitectura cliente-servidor, manejo de rutas HTTP, y control de versiones con Git en un entorno colaborativo. También fortalecí habilidades de trabajo en equipo y resolución de problemas",
     "descriptionGuitarStore": "Metalstore es una tienda virtual de guitarras eléctricas.\nEn desarrollo.",
     "descriptionPortfolio": "Este sitio está construido con React."
   },

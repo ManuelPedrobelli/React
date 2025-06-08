@@ -1,26 +1,68 @@
 export default function Contact({ text }) {
     return (
-        <div id="contact" className="mt-4 flex flex-col items-center justify-center text-center mb-8 p-5 mx-auto w-full max-w-4xl">
-            <h2 className="font-bold text-4xl md:text-8xl mb-4 p-4">{text.text}</h2>
-            <div className="redondear2 flex flex-col items-center mt-4 px-4 w-full">
-                <div className="w-full">
-                    <form className="flex flex-col p-6 rounded-xl gap-4 text-white text-lg md:text-2xl bg-gray-800 w-full" action="https://formsubmit.co/manupedrob@gmail.com" method="POST">
-                        <label htmlFor="name" className="text-left">{text.name}</label>
-                        <input className="text-black p-2 rounded-md" type="text" name="name" required />
-
-                        <label htmlFor="email" className="text-left">E-mail</label>
-                        <input className="text-black p-2 rounded-md" type="email" name="email" required />
-
-                        <label htmlFor="comments" className="text-left">{text.comment}</label>
-                        <textarea className="text-black p-2 rounded-md" name="comments" cols="30" rows="5"></textarea>
-
-                        <input className="py-2 mt-4 bg-blue-500 hover:bg-blue-600 text-white rounded-xl cursor-pointer" type="submit" value={text.send} />
-
-                        <input type="hidden" name="_next" value="https://manupedrobcv.onrender.com/"></input>
-                        <input type="hidden" name="_captcha" value="false"></input>
-                    </form>
+        <div
+            id="contact"
+            className="mt-12 mb-16 px-4 md:px-6 w-full max-w-2xl mx-auto text-center"
+        >
+            <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-10 drop-shadow-lg">
+                {text.text}
+            </h2>
+            <form
+                className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 p-6 md:p-8 rounded-2xl shadow-2xl text-white text-base md:text-lg flex flex-col gap-6"
+                action="https://formsubmit.co/manupedrob@gmail.com"
+                method="POST"
+            >
+                <div className="flex flex-col text-left">
+                    <label htmlFor="name" className="font-semibold mb-1">
+                        {text.name}
+                    </label>
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        required
+                        placeholder="Your name"
+                        className="p-3 rounded-lg border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                    />
                 </div>
-            </div>
+
+                <div className="flex flex-col text-left">
+                    <label htmlFor="email" className="font-semibold mb-1">
+                        E-mail
+                    </label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        placeholder="your@email.com"
+                        className="p-3 rounded-lg border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                    />
+                </div>
+
+                <div className="flex flex-col text-left">
+                    <label htmlFor="comments" className="font-semibold mb-1">
+                        {text.comment}
+                    </label>
+                    <textarea
+                        id="comments"
+                        name="comments"
+                        rows="5"
+                        placeholder="Write your message..."
+                        className="p-3 rounded-lg border border-gray-300 text-black resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                    />
+                </div>
+
+                <input
+                    type="submit"
+                    value={text.send}
+                    className="mt-4 py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-md transition-all duration-200 cursor-pointer"
+                />
+
+                {/* Hidden fields */}
+                <input type="hidden" name="_next" value="https://manupedrobcv.onrender.com/" />
+                <input type="hidden" name="_captcha" value="false" />
+            </form>
         </div>
     );
 }

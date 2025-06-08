@@ -1,16 +1,14 @@
 {
   "hero": {
     "title": "Manuel Pedrobelli",
-    "subtitle": "Full-stack developer",
-    "cv": "Download CV"
+    "subtitle": "Software Developer",
+    "cv": "CV"
   },
   "about": {
     "text1": "Currently finishing the second year of the ICT Analysis degree at the Faculty of Computer Science, UNLP.\n\nAs I progress in my university studies, I focus on full-stack web development, enjoying creating web pages and dedicating time to designing sites and applications.",
-    "text2": "I am a reliable, dedicated, and responsible person.",
-    "text3": "I am seeking a job opportunity that allows me to apply my knowledge and learn new skills and knowledge while continuing with my university studies.\n\nOutside of my academic studies, I enjoy my hobbies such as playing the electric guitar, riding bicycles, and going to the gym.",
-    "text4": "Outside of my academic studies, I enjoy my hobbies such as playing the electric guitar, riding bicycles, and going to the gym.",
     "ha": "Academic History",
-    "hide": "Hide"
+    "hide": "Hide",
+    "educacion": "EDUCATION\nAnalista en Tecnologias de la Informacion y Comunicacion\nUniversidad Nacional de La Plata - Facultad de Informática\nActualmente estoy finalizando el tercer y último año de la carrera.\nDurante la formación adquirí conocimientos en:\n• Sistemas operativos\n• Bases de datos relacionales (modelado lógico y físico, SQL, normalización)\n• Programación orientada a objetos\n• Desarrollo web full stack\n• Ingeniería de software (requerimientos, documentación, buenas prácticas)\n• Metodologias Agiles (SCRUM)\nReconocimientos: Becario del programa de estímulo al rendimiento académico otorgado por la Facultad."
   },
   "projects": {
     "title": "Projects",
