@@ -2,7 +2,7 @@ export default function Contact({ text }) {
     return (
         <div
             id="contact"
-            className="mt-12 mb-16 px-4 md:px-6 w-full max-w-2xl mx-auto text-center"
+            className="mt-12 mb-16 px-4 md:px-6 w-full max-w-6xl mx-auto text-center"
         >
             <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-10 drop-shadow-lg">
                 {text.text}
