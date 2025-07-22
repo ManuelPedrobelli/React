@@ -37,11 +37,11 @@ export default function About({ text }) {
 
             <ul className="grid grid-cols-1 gap-y-2 text-left list-disc list-inside text-base md:text-lg">
               <li>Programación orientada a objetos</li>
-              <li>Ingeniería de software: documentación, testing, buenas prácticas</li>
-              <li>Metodologías ágiles (Scrum)</li>
+              <li>Ingeniería de software: historias de usuario, documentación, testing, buenas prácticas</li>
+              <li>Metodologías ágiles</li>
               <li>Bases de datos relacionales: SQL, modelado lógico y físico, normalización</li>
               <li>Sistemas operativos</li>
-              <li>Desarrollo full stack</li>
+              <li>Desarrollo de software</li>
             </ul>
 
             <p className="mt-4 text-base md:text-lg">
@@ -80,11 +80,10 @@ export default function About({ text }) {
 
           <div className="grid grid-cols-2 w-full gap-6">
             {[
-              { title: "Lenguajes", content: "JavaScript, Java, SQL, C#" },
+              { title: "Lenguajes", content: "Javascript, Java, SQL, C#" },
               { title: "Frameworks / Librerías", content: "React, Node.js, Express, Blazor (.NET), TailwindCSS, Bootstrap" },
               { title: "Bases de datos", content: "SQLite, diseño y consultas SQL" },
               { title: "Herramientas", content: "Git, GitHub, Linux" },
-              { title: "Conceptos", content: "OOP, UML, Ingeniería de Software, APIs REST, Scrum" },
               { title: "Idiomas", content: "Inglés técnico (lectura y comprensión de documentación)" },
             ].map((item, index) => (
               <div
@@ -173,7 +172,6 @@ export default function About({ text }) {
             <img
               src="trivia.png"
               alt="Trivia"
-              className="transition-transform duration-300 hover:scale-105"
             />
           </a>
 
