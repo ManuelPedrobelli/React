@@ -110,7 +110,7 @@ export default function About({ text }) {
         {/* Proyecto: Alquilando */}
         <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-3xl shadow-xl flex flex-col items-center justify-center p-8">
           <a
-            href="WEB ALQUILANDO"
+            href="https://alquilando.onrender.com/"
             target="_blank"
             rel="noopener noreferrer"
             className=""
