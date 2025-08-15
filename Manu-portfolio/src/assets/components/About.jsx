@@ -148,7 +148,7 @@ export default function About({ text }) {
           </div>
 
           <a
-            href="WEB ALQUILANDO"
+            href="https://alquilando.onrender.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 px-6 py-2.5 text-white font-semibold bg-blue-700 hover:bg-blue-800 rounded-xl transition focus:outline-none focus:ring-4 focus:ring-blue-500"
