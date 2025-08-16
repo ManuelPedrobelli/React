@@ -122,7 +122,7 @@ export default function About({ text }) {
             />
           </a>
           <h5 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white text-center">
-            Alquilando
+            Alquilandooo
           </h5>
           <p className="mb-6 text-left text-gray-700 dark:text-gray-300 leading-relaxed">
              Alquilando es una aplicación web para la gestión de propiedades en alquiler, que permite a los usuarios publicar inmuebles, realizar reservas y llevar un seguimiento de las operaciones de forma centralizada.<br />En el proyecto participé de forma activa en todo el ciclo de vida del desarrollo, desde la recolección de requisitos hasta la implementación de funcionalidades.<br /> Realicé entrevistas a usuarios reales para comprender sus necesidades, redacté la documentación inicial (SRS, épicas e historias de usuario) y trabajé bajo la metodología Scrum, participando en sprints, retrospectivas y tareas de equipo.<br /> Apliqué buenas prácticas de desarrollo como separación por capas, principios SOLID, inyección de dependencias y control de versiones con Git.<br /> Desarrollé funcionalidades clave del sistema utilizando Blazor y C#, conectando con bases de datos mediante Entity Framework.<br /> Este proyecto me permitió fortalecer habilidades tanto técnicas como de trabajo colaborativo, priorización de tareas y comunicación con el cliente.
