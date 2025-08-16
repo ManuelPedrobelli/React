@@ -1,45 +1,51 @@
+// HeroComponent.jsx
 export default function HeroComponent({ text }) {
-    return (
-        <div  className="relative h-screen">
-            {/* Background overlay */}
-            <div id="main" className="absolute bg-center bg-cover inset-0 color1"></div>
+  return (
+    <div className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('1113.png')" }}>
+      {/* Overlay oscuro */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50"></div>
 
-            {/* Content container */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
-                <div id="hero-content" className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left mb-4 md:mb-0 gap-4 p-6 md:p-12 rounded bg-white bg-opacity-25 backdrop-blur-lg">
-                    {/* Left column */}
-                    <div id='hero-title' className="flex flex-col justify-center items-center gap-2 md:p-16 rounded">
-                        <h1 className="transition-transform transform hover:-translate-y-1 text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
-                            {text.title}
-                        </h1>
-                        <p className="text-2xl md:text-3xl lg:text-4xl mb-6">
-                            {text.subtitle}
-                        </p>
-                        <div className="flex flex-col md:flex-row gap-2">
-                            <a href="ManuelPedrobelli-cv.pdf" download>
-                                <button className="zoom w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-green-700 shadow-md hover:bg-green-500">
-                                    {text.cv}
-                                </button>
-                            </a>
-                            <a href="https://www.linkedin.com/in/manuel-pedrobelli-897009213/">
-                                <button className="zoom w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-blue-700 shadow-md hover:bg-blue-500">
-                                    Linkedin
-                                </button>
-                            </a>
-                            <a href="https://github.com/ManuelPedrobelli">
-                                <button className="zoom w-32 h-12 px-3 md:px-4 lg:px-2 py-2 md:py-2 lg:py-2 text-white font-bold bg-black shadow-md hover:bg-gray-800">
-                                    Github
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+      {/* Contenedor principal */}
+      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white/10 backdrop-blur-lg rounded-2xl p-10 shadow-xl mx-4">
+        
+        {/* Columna izquierda: texto */}
+        <div className="text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white animate-fadeIn">
+            {text.title}
+          </h1>
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mt-3 animate-fadeIn delay-200">
+            {text.subtitle}
+          </p>
 
-                    {/* Right column */}
-                    <div className=" md:flex justify-center items-center">
-                        <img src="perfil.jpg" alt="software engineer" className="zoomImg rounded-full w-40 h-40 md:w-60 md:h-60 p-2 " />
-                    </div>
-                </div>
-            </div>
+          {/* Botones */}
+          <div className="flex flex-wrap gap-3 justify-center md:justify-start mt-6">
+            <a href="ManuelPedrobelli-cv.pdf" download>
+              <button className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white rounded-lg font-bold shadow-md transition-transform hover:scale-105">
+                {text.cv}
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/manuel-pedrobelli-897009213/">
+              <button className="px-6 py-3 border border-white text-white rounded-lg font-bold shadow-md hover:bg-white/10 transition-transform hover:scale-105">
+                LinkedIn
+              </button>
+            </a>
+            <a href="https://github.com/ManuelPedrobelli">
+              <button className="px-6 py-3 border border-white text-white rounded-lg font-bold shadow-md hover:bg-white/10 transition-transform hover:scale-105">
+                GitHub
+              </button>
+            </a>
+          </div>
         </div>
-    );
+
+        {/* Columna derecha: foto */}
+        <div className="flex justify-center">
+          <img
+            src="perfil.jpg"
+            alt="software engineer"
+            className="rounded-full w-40 h-40 md:w-56 md:h-56 object-cover shadow-lg hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
