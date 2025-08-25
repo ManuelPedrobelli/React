@@ -1,15 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useState } from 'react';
 
 export default function About({ text }) {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => setIsVisible(!isVisible);
-
-  useEffect(() => {
-    AOS.init({ duration: 800, easing: 'ease-out', once: true });
-  }, []);
 
   const habilidades = [
     { title: "Lenguajes", content: "Javascript, Java, SQL, C#" },
@@ -24,11 +18,11 @@ export default function About({ text }) {
       title: "Alquilando",
       img: "imagenAlquilando.jpg",
       description: `Alquilando es una aplicación web para la gestión de propiedades en alquiler, que permite a los usuarios publicar inmuebles, realizar reservas y llevar un seguimiento de las operaciones de forma centralizada.
-      En el proyecto participé de forma activa en todo el ciclo de vida del desarrollo, desde la recolección de requisitos hasta la implementación de funcionalidades.
-      Realicé entrevistas a usuarios reales para comprender sus necesidades, redacté la documentación inicial (SRS, épicas e historias de usuario) y trabajé bajo la metodología Scrum, participando en sprints, retrospectivas y tareas de equipo.
-      Apliqué buenas prácticas de desarrollo como separación por capas, principios SOLID, inyección de dependencias y control de versiones con Git.
-      Desarrollé funcionalidades clave del sistema utilizando Blazor y C#, conectando con bases de datos mediante Entity Framework.
-      Este proyecto me permitió fortalecer habilidades tanto técnicas como de trabajo colaborativo, priorización de tareas y comunicación con el cliente.`,
+En el proyecto participé de forma activa en todo el ciclo de vida del desarrollo, desde la recolección de requisitos hasta la implementación de funcionalidades.
+Realicé entrevistas a usuarios reales para comprender sus necesidades, redacté la documentación inicial (SRS, épicas e historias de usuario) y trabajé bajo la metodología Scrum, participando en sprints, retrospectivas y tareas de equipo.
+Apliqué buenas prácticas de desarrollo como patron MVC, principios SOLID, inyección de dependencias y control de versiones con Git.
+Desarrollé funcionalidades clave del sistema utilizando Blazor y C#, conectando con bases de datos mediante Entity Framework.
+Este proyecto me permitió fortalecer habilidades tanto técnicas como de trabajo colaborativo, priorización de tareas y comunicación con el cliente.`,
       tech: [
         { src: "html-5.png", alt: "HTML5" },
         { src: "css-3.png", alt: "CSS3" },
@@ -43,9 +37,7 @@ export default function About({ text }) {
     {
       title: "Trivia",
       img: "trivia.png",
-      description: `Trivia es un juego de preguntas y respuestas diseñado para ofrecer una experiencia interactiva y entretenida a los usuarios.
-      Permite partidas multijugador entre dos jugadores que avanzan por un tablero al responder preguntas correctamente, ganando quien alcance primero la casilla final.
-      Implementé la lógica del juego, el sistema de turnos, el avance en el tablero, el servidor para conexión entre jugadores y la estructura general del flujo de partida.`,
+      description: `Trivia es un juego de preguntas y respuestas diseñado para ofrecer una experiencia interactiva y entretenida a los usuarios. Permite partidas multijugador entre dos jugadores que avanzan por un tablero al responder preguntas correctamente, ganando quien alcance primero la casilla final. Implementé la lógica del juego, el sistema de turnos, el avance en el tablero, el servidor para conexión entre jugadores y la estructura general del flujo de partida`,
       tech: [
         { src: "html-5.png", alt: "HTML5" },
         { src: "css-3.png", alt: "CSS3" },
@@ -60,23 +52,15 @@ export default function About({ text }) {
 
   return (
     <section id="about" className="mb-16 mt-12 mx-auto flex flex-col items-center px-4 lg:px-6 gap-14 w-full max-w-6xl text-white">
-      
       {/* Educación */}
       <div className="w-full">
-        <h2 
-          data-aos="fade-down"
-          className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-lg"
-        >
+        <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-lg">
           Educación
         </h2>
 
-        <div 
-          data-aos="fade-up"
-          data-aos-delay="100"
-          className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300"
-        >
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-1">
           <a href="https://www.info.unlp.edu.ar/analista-en-tic/" target="_blank" rel="noopener noreferrer" className="block mb-4">
-            <h3 className="text-2xl md:text-3xl font-semibold mb-2 hover:text-blue-400 transition-colors duration-300">
+            <h3 className="text-2xl md:text-3xl font-semibold mb-2 hover:text-blue-400 transition-colors duration-1">
               Analista en Tecnologías de la Información y la Comunicación
             </h3>
           </a>
@@ -100,19 +84,19 @@ export default function About({ text }) {
           </p>
 
           <button
-            className="mt-4 py-2 px-6 rounded-xl font-semibold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white shadow-lg hover:scale-105 hover:from-pink-500 hover:to-blue-500 transition-all duration-300"
+            className="mt-4 py-2 px-6 rounded-xl font-semibold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white shadow-lg hover:scale-105 hover:from-pink-500 hover:to-blue-500 transition-all duration-1"
             onClick={toggleVisibility}
           >
             {isVisible ? "Ocultar historia académica" : "📄 Ver historia académica"}
           </button>
 
           {isVisible && (
-            <div className="flex justify-center w-full mt-6" data-aos="zoom-in" data-aos-delay="200">
+            <div className="flex justify-center w-full mt-6">
               <a href="/historiaacademica.png" target="_blank" rel="noopener noreferrer" className="block">
                 <img
                   src="historiaacademica.png"
                   alt="Historia Académica"
-                  className="w-full max-w-md rounded-2xl shadow-2xl border border-gray-600 cursor-pointer transition-transform hover:scale-105"
+                  className="w-full max-w-md rounded-2xl shadow-2xl border border-gray-600 cursor-pointer transition-transform "
                 />
               </a>
             </div>
@@ -122,20 +106,15 @@ export default function About({ text }) {
 
       {/* Habilidades Técnicas */}
       <section id="habilidades" className="w-full mt-12">
-        <h2 
-          data-aos="fade-down"
-          className="text-3xl md:text-4xl font-bold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 drop-shadow-lg"
-        >
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 drop-shadow-lg">
           Habilidades Técnicas
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {habilidades.map((item, idx) => (
-            <div 
-              key={idx} 
-              data-aos="fade-up"
-              data-aos-delay={idx * 100}
-              className="bg-white/10 backdrop-blur-lg border border-white/20 p-5 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02]"
+            <div
+              key={idx}
+              className="bg-white/10 backdrop-blur-lg border border-white/20 p-5 rounded-3xl shadow-md hover:shadow-xl transition-all duration-1 hover:scale-[1.02]"
             >
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
               <p className="text-base md:text-lg">{item.content}</p>
@@ -146,22 +125,17 @@ export default function About({ text }) {
 
       {/* Portfolio */}
       <div id="portfolio" className="w-full mt-12 flex flex-col items-center gap-12">
-        <h2 
-          data-aos="fade-down"
-          className="text-4xl md:text-6xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 drop-shadow-xl mb-8"
-        >
+        <h2 className="text-4xl md:text-6xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 drop-shadow-xl mb-8">
           Proyectos
         </h2>
 
         {proyectos.map((project, idx) => (
-          <div 
-            key={idx} 
-            data-aos="fade-up"
-            data-aos-delay={idx * 150}
-            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl shadow-lg p-8 flex flex-col items-center transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
+          <div
+            key={idx}
+            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl shadow-lg p-8 flex flex-col items-center transition-all duration-1 hover:shadow-2xl "
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <img src={project.img} alt={project.title} className="rounded-2xl shadow-lg transition-transform hover:scale-105" />
+              <img src={project.img} alt={project.title} className="rounded-2xl shadow-lg transition-transform " />
             </a>
 
             <h5 className="mt-6 mb-3 text-2xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
@@ -180,7 +154,7 @@ export default function About({ text }) {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 px-6 py-2.5 text-white font-semibold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500"
+              className="mt-6 inline-flex items-center gap-2 px-6 py-2.5 text-white font-semibold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-xl shadow-lg hover:scale-105 transition-all duration-1 focus:outline-none focus:ring-4 focus:ring-blue-500"
             >
               Visit Project
               <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
